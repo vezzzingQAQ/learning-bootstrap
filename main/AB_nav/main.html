@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>导航栏</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
+        @media screen and(min-width:767px){
+            .container{
+                width: 750px;
+            }   
+            .container ul li{
+                width: 93.75px;
+            }
+        }
+        @media screen and(max-width:767px){
+            .container{
+                width: 100%;
+            }   
+            .container ul li{
+                width: 33.33%;
+            }
+        }
+        .container{
+            margin: 0 auto;
+        }
+        .container ul{
+            list-style: none;
+        }
+        .container ul li{
+            float: left;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li>navww</li>
+            <li>navww</li>
+            <li>navww</li>
+            <li>navww</li>
+            <li>navww</li>
+            <li>navww</li>
+            <li>navww</li>
+            <li>navww</li>
+        </ul>
+    </div>
+</body>
+</html>
